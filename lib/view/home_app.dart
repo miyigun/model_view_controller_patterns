@@ -16,7 +16,7 @@ class HomeAppPage extends StatelessWidget {
         body: SafeArea(
           child: ListView(
             children: [
-              textStyleTSacramento('Provider Examples'),
+              textStyleSacramento('Provider Examples'),
               Container(
                 padding: const EdgeInsets.all(20.0),
                 child: Image.asset(
@@ -25,10 +25,11 @@ class HomeAppPage extends StatelessWidget {
                 ),
               ),
               textStyleTrajanPro('We can add humongous widget tree below...'),
+              const HorizontalLine(),
               changeNameButton(),
               Container(
                 padding: const EdgeInsets.all(30.0),
-                child: textStyleTSacramento(
+                child: textStyleSacramento(
                   Provider.of<FirstModel>(context, listen: true).name,
                 ),
               ),

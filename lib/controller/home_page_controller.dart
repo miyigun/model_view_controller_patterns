@@ -12,7 +12,7 @@ Widget textStyleTrajanPro(String trajan) => Text(
       textAlign: TextAlign.center,
     );
 
-Widget textStyleTSacramento(String sacramento) => Text(
+Widget textStyleSacramento(String sacramento) => Text(
       sacramento,
       style: const TextStyle(
         fontFamily: 'Sacramento',
