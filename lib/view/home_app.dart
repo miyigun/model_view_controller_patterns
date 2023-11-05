@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:model_view_controller_patterns/controller/mobile_controller.dart';
-import 'package:model_view_controller_patterns/controller/second_home_page_controller.dart';
+import 'package:model_view_controller_patterns/controller/home_page_controller.dart';
 import 'package:model_view_controller_patterns/model/first_model.dart';
 import 'package:provider/provider.dart';
 
-class SecondHomeAppPage extends StatelessWidget {
-  const SecondHomeAppPage({super.key});
+class HomeAppPage extends StatelessWidget {
+  const HomeAppPage({super.key});
 
   @override
   Widget build(BuildContext context) {

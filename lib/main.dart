@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:model_view_controller_patterns/model/first_model.dart';
 import 'package:model_view_controller_patterns/model/mobile_model.dart';
-import 'package:model_view_controller_patterns/view/second_home_app.dart';
+import 'package:model_view_controller_patterns/view/home_app.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -11,7 +11,7 @@ void main() {
         ChangeNotifierProvider(create: (context) => FirstModel()),
         ChangeNotifierProvider(create: (context) => MobileModel()),
       ],
-      child: const SecondHomeAppPage(),
+      child: const HomeAppPage(),
     ),
   );
 }
